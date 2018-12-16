@@ -273,6 +273,69 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
+.fh5co-table,
+.fh5co-table-cell,
+.fh5co-parallax {
+  height: 600px;
+}
+
+.fh5co-parallax {
+  background-color: #555;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.fh5co-parallax .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-parallax {
+    height: inherit;
+    padding: 4em 0;
+  }
+}
+.fh5co-parallax .fh5co-intro h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-parallax .fh5co-intro h1 {
+    font-size: 30px;
+  }
+}
+.fh5co-parallax .fh5co-intro p {
+  color: #fff;
+}
+.fh5co-parallax .fh5co-intro p a {
+  color: #FF5722;
+  border-bottom: 2px solid rgba(255, 87, 34, 0.2);
+}
+.fh5co-parallax .fh5co-intro p a:hover {
+  color: #FF5722;
+}
+.fh5co-parallax .fh5co-intro.box-area {
+  padding: 40px;
+  background: #222831;
+}
+
+.fh5co-table {
+  display: table;
+}
+
+.fh5co-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
 /*# Booking Form */
 
 .section {

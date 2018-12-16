@@ -1,32 +1,39 @@
 *, body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body {
   overflow: hidden;
-  font-family: 'Kaushan Script','Wendy One', sans-serif; }
+  font-family: 'Kaushan Script','Wendy One', sans-serif;
+}
 
 h1, h2, h3 {
-  color: #fff; }
+  color: #fff;
+}
 
 .con {
   background: url("../images/sea-1209607_1920.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+}
 
 .overlay {
   background: rgba(31, 31, 31, 0.4);
-  height: inherit; }
+  height: inherit;
+}
 
 .main-con {
   border-radius: 5px;
-  margin: 10px; }
+  margin: 10px;
+}
 
 ::-webkit-input-placeholder {
   color: #cacaca;
-  text-align: center; }
+  text-align: center;
+}
 
 input {
   outline: none; }

@@ -263,16 +263,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
-#fh5co-wrapper {
-  overflow-x: hidden;
-  position: relative;
-}
-
-#fh5co-page {
-  position: relative;
-  transition: 0.5s;
-}
-
 .fh5co-table,
 .fh5co-table-cell,
 .fh5co-parallax {
@@ -335,6 +325,24 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+.js .animate-box {
+  opacity: 0;
+}
+
+#fh5co-wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+#fh5co-wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+#fh5co-page {
+  position: relative;
+  transition: 0.5s;
+}
 
 /*# Booking Form */
 

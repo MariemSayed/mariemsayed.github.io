@@ -1,6 +1,6 @@
 /* =======================================================
 *
-*   Style 
+*   Style
 *   Edit this section
 *
 * ======================================================= */
@@ -22,12 +22,13 @@ p, ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  /* rgba: red, gray, blue color combination */
   color: rgba(0, 0, 0, 0.7);
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
-#fh5co-header {
+#header {
   margin-bottom: 0;
   z-index: 99;
   position: absolute;
@@ -42,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-#fh5co-header-section {
+#header-section {
   background: transparent;
   padding: 0;
   width: 100%;
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-#fh5co-logo {
+#logo {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 300;
@@ -62,16 +63,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   margin-top: 1.4em;
 }
-#fh5co-logo a {
+#logo a {
   color: white;
   position: relative;
   text-decoration: none;
 }
-#fh5co-logo a:hover, #fh5co-logo a:focus {
+#logo a:hover, #logo a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
   text-decoration: none;
 }
-#fh5co-logo span {
+#logo span {
   padding: 0;
   margin: 0;
   font-weight: 100;
@@ -111,14 +112,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-#fh5co-menu-wrap {
+#menu-wrap {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
 }
 
-#fh5co-hero {
+#hero {
   margin-bottom: 0;
   background: #fff url(../images/loader.gif) no-repeat center center;
   margin-bottom: 0 !important;
@@ -126,29 +127,29 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
 }
-#fh5co-hero .btn {
+#hero .btn {
   font-size: 24px;
 }
-#fh5co-hero .btn.btn-primary {
+#hero .btn.btn-primary {
   padding: 14px 30px !important;
 }
-#fh5co-hero .flexslider {
+#hero .flexslider {
   border: none;
   z-index: 1;
   margin-bottom: 0;
 }
-#fh5co-hero .flexslider .slides {
+#hero .flexslider .slides {
   position: relative;
   overflow: hidden;
 }
-#fh5co-hero .flexslider .slides li {
+#hero .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   min-height: 700px;
   position: relative;
 }
-#fh5co-hero .flexslider .slides li:after {
+#hero .flexslider .slides li:after {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -158,19 +159,19 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
-#fh5co-hero .flexslider .flex-control-nav {
+#hero .flexslider .flex-control-nav {
   bottom: 60px;
   z-index: 1000;
   right: 20px;
   width: 25px;
   float: right;
 }
-#fh5co-hero .flexslider .flex-control-nav li {
+#hero .flexslider .flex-control-nav li {
   display: block !important;
   margin-bottom: 20px;
   float: right;
 }
-#fh5co-hero .flexslider .flex-control-nav li a {
+#hero .flexslider .flex-control-nav li a {
   display: block !important;
   background: rgba(255, 255, 255, 0.4);
   box-shadow: none;
@@ -179,16 +180,16 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   border: 2px solid transparent;
 }
-#fh5co-hero .flexslider .flex-control-nav li a:active, #fh5co-hero .flexslider .flex-control-nav li a:focus {
+#hero .flexslider .flex-control-nav li a:active, #hero .flexslider .flex-control-nav li a:focus {
   outline: none;
   border: 2px solid white !important;
 }
-#fh5co-hero .flexslider .flex-control-nav li a.flex-active {
+#hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   border: 2px solid white;
   background: transparent;
 }
-#fh5co-hero .flexslider .flex-direction-nav {
+#hero .flexslider .flex-direction-nav {
   display: none;
 }
 
@@ -263,19 +264,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
-.fh5co-table,
-.fh5co-table-cell,
-.fh5co-parallax {
+.table,
+.table-cell,
+.parallax {
   height: 600px;
 }
 
-.fh5co-parallax {
+.parallax {
   background-color: #555;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
 }
-.fh5co-parallax .overlay {
+.parallax .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -283,44 +284,32 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-
-@media screen and (max-width: 768px) {
-  .fh5co-parallax {
-    height: inherit;
-    padding: 4em 0;
-  }
-}
-.fh5co-parallax .fh5co-intro h1 {
+.parallax .intro h1 {
   color: #fff;
   font-size: 65px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-parallax .fh5co-intro h1 {
-    font-size: 30px;
-  }
-}
-.fh5co-parallax .fh5co-intro p {
+.parallax .intro p {
   color: #fff;
 }
-.fh5co-parallax .fh5co-intro p a {
+.parallax .intro p a {
   color: #FF5722;
   border-bottom: 2px solid rgba(255, 87, 34, 0.2);
 }
-.fh5co-parallax .fh5co-intro p a:hover {
+.parallax .intro p a:hover {
   color: #FF5722;
 }
-.fh5co-parallax .fh5co-intro.box-area {
+.parallax .intro.box-area {
   padding: 40px;
   background: #222831;
 }
 
-.fh5co-table {
+.table {
   display: table;
 }
 
-.fh5co-table-cell {
+.table-cell {
   display: table-cell;
   vertical-align: middle;
 }
@@ -329,17 +318,17 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-#fh5co-wrapper {
+#wrapper {
   overflow-x: hidden;
   position: relative;
 }
 
-#fh5co-wrapper {
+#wrapper {
   overflow-x: hidden;
   position: relative;
 }
 
-#fh5co-page {
+#page {
   position: relative;
   transition: 0.5s;
 }
@@ -356,7 +345,6 @@ h1, h2, h3, h4, h5, h6 {
 	top: 50%;
 	left: 0;
 	right: 0;
-	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
@@ -411,7 +399,6 @@ h1, h2, h3, h4, h5, h6 {
 	height: 50px;
 	padding: 0px 20px;
 	border: 1px solid #e1e1e1;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	border-radius: 3px;
 	color: #6b6b6d;
@@ -439,8 +426,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .booking-form select.form-control {
-	-webkit-appearance: none;
-	-moz-appearance: none;
 	appearance: none;
 }
 
@@ -457,14 +442,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgba(107, 107, 109, 0.3);
 	font-size: 14px;
 	border-radius: 0px 3px 3px 0px;
-	-webkit-transition: 0.2s all;
 	transition: 0.2s all;
 }
 
 .booking-form select.form-control+.select-arrow::after {
 	content: '\279C';
 	display: block;
-	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
 
@@ -492,7 +475,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 30px;
 	z-index: 20;
 	text-align: center;
-	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	bottom: 25px;
 }

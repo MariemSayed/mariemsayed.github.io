@@ -3,7 +3,9 @@
 ## HOTEL MANAGEMENT SYSTEM
 
 Course: Internet Technology
+
 Faculty of Computers & Information Technology
+
 Future University in Egypt
 
 ### Project requirements:

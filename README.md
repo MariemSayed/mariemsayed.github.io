@@ -2,7 +2,9 @@
 
 ## HOTEL MANAGEMENT SYSTEM
 
-Course: Internet Technology  
+[Live Preview](https://mariemsayed.github.io/)  
+
+Internet Technology Course  
 Faculty of Computers & Information Technology  
 Future University in Egypt  
 
